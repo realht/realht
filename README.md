@@ -24,6 +24,13 @@
 **Инфраструктура:**  
 [![Docker](https://img.shields.io/badge/Docker-✓-2496ED?logo=docker)](https://www.docker.com/) 
 [![CMake](https://img.shields.io/badge/CMake-✓-064F8C)](https://cmake.org/)  
+[![Prometheus](https://img.shields.io/badge/Prometheus-✓-ED8B00)](https://prometheus.io/) 
+[![Grafana](https://img.shields.io/badge/Grafana-✓-F46800)](https://grafana.com/)  
+
+**Профилирование и мониторинг:**  
+[![gprof](https://img.shields.io/badge/gprof-✓-4D4D4D)](https://sourceware.org/binutils/docs/gprof/) 
+[![perf](https://img.shields.io/badge/perf-✓-4D4D4D)](https://perf.wiki.kernel.org/) 
+[![FlameGraph](https://img.shields.io/badge/FlameGraph-✓-E53935)](https://github.com/brendangregg/FlameGraph)  
 
 **Тестирование:**  
 [![GoogleTest](https://img.shields.io/badge/Google_Test-✓-4D4D4D)](https://github.com/google/googletest) 
@@ -95,8 +102,8 @@
   - QML для создания динамических интерфейсов.  
   - Интеграция с C++ через сигналы и слоты.  
 - **Инструменты**:  
-  - **Prometheus** для мониторинга производительности.   
   - **Sanitizers** (Address/UBSan) для отладки.  
+  - **gRPC** для межсервисного взаимодействия
 - **Архитектура**:  
   - Event-driven микросервисы (Kafka/RabbitMQ для обмена сообщениями).  
   - Контейнеризация: **Docker** для изоляции сервисов.  

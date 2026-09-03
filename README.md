@@ -14,7 +14,7 @@
 - **Backend:** Boost.Asio, Django, FastAPI, Gunicorn, REST API
 - **Данные:** PostgreSQL, MariaDB, SQLite, Chroma, Excel
 - **Инфраструктура:** Docker, Linux, Synology DSM, reverse proxy, HTTPS
-- **Качество:** pytest, Playwright, Ruff, e2e-тестирование, технический аудит
+- **Качество:** pytest, Playwright, Ruff, ESLint, автоматическое и e2e-тестирование, технический аудит
 - **AI/RAG:** OpenAI Codex, Claude Code, OpenClaw, Ollama, embeddings, RAG
 
 ## Ключевые проекты
@@ -37,7 +37,7 @@
 
 **Стек:** Python, FastAPI, Chroma, Ollama, React/Vite, Docker, Telegram, OpenClaw.
 
-Проект развёрнут на VPS, используется как персональный AI-ассистент и продолжает развиваться.
+Приватная рабочая конфигурация развёрнута на VPS и используется как персональный AI-ассистент. Публичный репозиторий содержит очищенную переносимую версию без пользовательских данных, секретов и приватных настроек.
 
 ### [Асинхронный HTTP-сервер](https://github.com/realht/cpp-http_async_server)
 
